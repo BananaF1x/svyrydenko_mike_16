@@ -1,0 +1,12 @@
+let sum = +prompt("Скільки буде 2+2?");
+let sun = prompt("Сонце встає на сході?");
+let division = prompt("Скільки буде 5 / 0?");
+let sky = prompt("Якого кольору небо?");
+let mainQuestion = +prompt("Яка правильна відповідь на головне питання життя, всесвіту та всього такого?");
+let mark = 0;
+if(sum == 4) mark += 10;
+if(sun == "yes") mark += 10;
+if(division == "no") mark += 10;
+if(sky == "blue") mark += 10;
+if(mainQuestion == 42) mark += 10;
+alert(mark);
